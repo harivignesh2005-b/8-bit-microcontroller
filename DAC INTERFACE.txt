@@ -1,0 +1,22 @@
+// DAC INTERFACE
+
+#include <htc.h>
+#define _XTAL_FREQ 20000000
+
+void main()
+{
+    int count = 0;
+    TRISB = 0x00;
+
+    while (1)
+    {
+        PORTB = count;
+        __delay_ms(1000);
+        count++;
+
+        if (count > 15)
+        {
+            count = 0;
+        }
+    }
+}
