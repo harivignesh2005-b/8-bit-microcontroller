@@ -13,7 +13,7 @@ set /p choice=Enter number (1-6):
 if "%choice%"=="1" curl -L https://raw.githubusercontent.com/harivignesh2005-b/8-bit-microcontroller/main/Dac.txt
 if "%choice%"=="2" curl -L https://raw.githubusercontent.com/harivignesh2005-b/8-bit-microcontroller/main/Humidity.txt
 if "%choice%"=="3" curl -L https://raw.githubusercontent.com/harivignesh2005-b/8-bit-microcontroller/main/Key.txt
-if "%choice%"=="4" curl -L "https://raw.githubusercontent.com/harivignesh2005-b/8-bit-microcontroller/main/Single%20digit.txt"
+if "%choice%"=="4" curl -L "https://raw.githubusercontent.com/harivignesh2005-b/8-bit-microcontroller/main/Singledigit.txt"
 if "%choice%"=="5" curl -L https://raw.githubusercontent.com/harivignesh2005-b/8-bit-microcontroller/main/Stepper.txt
 if "%choice%"=="6" curl -L https://raw.githubusercontent.com/harivignesh2005-b/8-bit-microcontroller/main/Ultrasonic.txt
 
